@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>  Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 class="gallery-title">Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="nature">Nature</button>
+    <button class="filter-btn" data-category="city">City</button>
+    <button class="filter-btn" data-category="animals">Animals</button>
+    <button class="filter-btn" data-category="heros">Heros</button>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <div class="image" data-category="nature"><img src="nature.jpg" alt="Nature 1" /></div>
+    <div class="image" data-category="city"><img src="city1.jpg" alt="City 1" /></div>
+    <div class="image" data-category="animals"><img src="animal1.jpg" alt="Animal 1" /></div>
+    <div class="image" data-category="nature"><img src="naturre2.jpg" alt="Nature 2" /></div>
+    <div class="image" data-category="city"><img src="city2.jpg" alt="City 2" /></div>
+    <div class="image" data-category="animals"><img src="animal 2.jpg" alt="Animal 2" /></div>     
+    <div class="image" data-category="heros"><img src="allu5.jpg" alt="Heros 1"/>  </div>  
+    <div class="image" data-category="heros"><img src="allu6.jpg" alt="Heros 2"/>  </div> 
+    <div class="image" data-category="heros"><img src="allu7.jpg" alt="Heros 1"/>  </div>        
+    <div class = "image" data-category="heros"><img src="allu1.jpg" alt="heros 4"></div>                                                                   
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Full view" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
