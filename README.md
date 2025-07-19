@@ -13,7 +13,7 @@ An interactive image gallery with lightbox functionality — click on any image 
 * **CSS**
 * **JavaScript**
 
-# 📌 Screenshot
+
 
 
 
