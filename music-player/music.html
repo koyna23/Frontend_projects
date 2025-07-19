@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> K-music </title>
+    <link rel="stylesheet" href="music.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="image1-logo.png" alt="K-music">K-music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList"></div>
+        <h1>Best of Ammie - Better version(feels) </h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="sky.jpg" alt="1">
+                <span class="songName"> Teri yaad</span>
+                <span class="songlistplay"><span class="timestamp"> 3:50 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+            </div>
+            <div class="songItem">
+                <img src="pink sky.jpeg" alt="1">
+                <span class="songName"> Paaro</span>
+                <span class="songlistplay"><span class="timestamp"> 03:37 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+            </div>
+            <div class="songItem">
+                <img src="picForMusic.jpg" alt="1">
+                <span class="songName"> perfect</span>
+                <span class="songlistplay"><span class="timestamp"> 4:23 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+            </div>
+            <div class="songItem">
+                <img src="darshanPHOTO.jpg" alt="1">
+                <span class="songName">Dooron Dooron</span>
+                <span class="songlistplay"><span class="timestamp"> 6:06 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+            </div>
+            <div class="songItem">
+                <img src="darshanPHOTO2.jpg" alt="1">
+                <span class="songName"> Finding her</span>
+                <span class="songlistplay"><span class="timestamp"> 3:27 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i>
+                    </span></span>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+       
+        <div class="timeDisplay">
+                <span id="currentTime">0:00</span> 
+                <span id="totalDuration">0:00</span>
+             </div>
+        <input type="range" id="myprogressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!---fontawsome icons-->
+            <i class="fa-solid  fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid  fa-2x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid  fa-2x fa-forward-step" id="next"></i>
+          
+        </div>
+        
+        <div class="songinfo">
+            <video src="music-Gif.mp4" width="30" autoplay loop muted playsinline id="gif">Teri yaad - Ammie </video>
+            <span id="currentSong">Teri yaad - Ammie</span>
+            
+
+        </div>     
+        
+    </div>
+    <script src="https://kit.fontawesome.com/fe0ba4f8f4.js" crossorigin="anonymous"></script>
+    <script src="music.js"></script>
+</body>
+
+</html>
